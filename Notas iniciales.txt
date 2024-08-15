@@ -1,0 +1,13 @@
+Nayrobi k. Valencia P.
+nkvalenciapi@cesde.net
+
+Submodulo: Nuevas tecnologias de programación
+
+*Python:
+-Conceptos basicos
+-Entornos virtuales
+-Analisis de datos
+-Graficos
+
+*Sistema de control de versiones:
+-Git -> Github
