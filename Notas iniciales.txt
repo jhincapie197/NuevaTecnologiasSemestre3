@@ -9,5 +9,13 @@ Submodulo: Nuevas tecnologias de programación
 -Analisis de datos
 -Graficos
 
+*Caracteristicas de Python:
+-Facil de usar, sintaxis sencilla
+-Distingue los tipos de datos asignados a una variable
+-Soporta programación funcional y orientada a objetos
+-No es fuertemente tipado
+-Tipos de variables:
+    -int, float, bool, string
+
 *Sistema de control de versiones:
 -Git -> Github

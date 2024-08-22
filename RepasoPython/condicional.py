@@ -34,3 +34,9 @@ elif edad <18 and pasaporte == "Si":
     print(f"El usuario {nombre} puede realizar viajes internacionales si tiene permisos de sus acudientes")
 else:
     print(f"El usuario {nombre} no puede abandonar el pais")
+
+
+#If anidado: es un if dentro de otro if
+#Ejemplo: if condicion
+            #if condicion
+                #instruccion
