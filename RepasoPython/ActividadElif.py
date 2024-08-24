@@ -64,7 +64,7 @@ else:
 numero repetido al menos 2 veces, si todos son diferentes o todos son
 iguales."""
 
-num1 = int(input("Ingrese el número 1: "))
+"""num1 = int(input("Ingrese el número 1: "))
 num2 = int(input("Ingrese el número 2: "))
 num3 = int(input("Ingrese el número 3: "))
 num4 = int(input("Ingrese el número 4: "))
@@ -80,4 +80,75 @@ elif len(set(numeros)) == 4:
 
 # Verificar si hay al menos un número repetido
 else:
-    print("Hay un número repetido al menos 2 veces.")
+    print("Hay un número repetido al menos 2 veces.")"""
+
+#*************************************************************************************************
+
+
+"""IF – ELSE y
+OPERADORES
+LOGICOS:
+
+1. Para tributar un determinado impuesto se debe ser mayor de 18 años
+y tener unos ingresos iguales o superiores a 2.500.000 mensuales.
+Escribir un programa que pregunte al usuario su edad y sus ingresos
+mensuales y muestre por pantalla si el usuario tiene que tributar o
+no."""
+
+"""edad = int(input("Digite su edad: "))
+ingresos = float(input("Digite sus ingresos mensuales: "))
+
+if edad > 18 and ingresos >= 2500000:
+    print("Tiene que tributar")
+else:
+    print("No tiene que tributar")"""
+
+
+#*************************************************************************************************
+
+"""OPERADOR DE ASIGNACION
+
+1. Realizar una calculadora que:
+• Realice las operaciones básicas (suma, resta, multiplicación, división, potenciación, resto).
+• Debe crear un menú de opciones con las operaciones a
+realizar.
+• Para realizar cada operación se debe solicitar solo 2 números.
+• El código debe funcionar con una sola variable"""
+
+
+
+menu = input("Digite operacion a realizar:\n" 
+             "1: Suma \n"
+             "2: Resta \n"
+             "3: Multiplicacion \n"
+             "4: Division \n"
+             "5: Potenciacion\n"
+             "6: Resto\n")
+
+
+if menu == "1":
+    num = int(input("Digite el numero 1: "))
+    num += int(input("Digite el numero 2: "))
+    print(f"El resultado de la suma es {num}")
+elif menu == "2":
+    num = int(input("Digite el numero 1: "))
+    num -= int(input("Digite el numero 2: "))
+    print(f"El resultado de la resta es {num}")
+elif menu == "3":
+    num = int(input("Digite el numero 1: "))
+    num *= int(input("Digite el numero 2: "))
+    print(f"El resultado de la multiplicacion es {num}")
+elif menu == "4":
+    num = int(input("Digite el numero 1: "))
+    num /= int(input("Digite el numero 2: "))
+    print(f"El resultado de la division es {num}")
+elif menu == "5":
+    num = int(input("Digite el numero 1: "))
+    num **= int(input("Digite el numero 2: "))
+    print(f"El resultado de la potenciacion es {num}")
+elif menu == "6":
+    num = int(input("Digite el numero 1: "))
+    num %= int(input("Digite el numero 2: "))
+    print(f"El resultado del resto es {num}")
+else:
+    print("Ingrese una opción válida")
