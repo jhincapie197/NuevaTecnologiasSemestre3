@@ -70,9 +70,21 @@ while sw:
 
 #For
 
-for i in range(1,11,2):
+"""for i in range(1,11,2):
     print(f"Iteracion {i}")
 for j in range(20,0,-1):
-    print(f"Iteracion {j}")
+    print(f"Iteracion {j}")"""
 #0,1,1,2,3,5,8,13,21
 #Realizar ejercicio que imprima esa serie
+
+
+def fibonacci(n):
+    """Imprime los primeros n términos de la secuencia de Fibonacci."""
+    a, b = 0, 1
+    for _ in range(n):
+        print(a, end=', ' if _ < n-1 else '\n')
+        a, b = b, a + b
+
+# Número de términos que deseas imprimir
+numero_de_terminos = 9
+fibonacci(numero_de_terminos)
