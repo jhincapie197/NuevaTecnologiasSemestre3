@@ -1,0 +1,3 @@
+Notas de la clase hoy
+
+Es un sistema de control de versiones
