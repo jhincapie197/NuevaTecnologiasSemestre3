@@ -1,0 +1,15 @@
+Pip y Entornos Virtuales
+
+Pip: instalador de paquetes de Python
+Entorno virtual: copia del sistema, la cual se puede personalizar
+
+Pip list: para consultar las librerias instaladas
+Python -m venv "nombre": para crear un entorno virtual
+"nombre"\Scripts\activate: para cambiar al entorno
+deactivate: para salir del entorno
+Pip install libreria==version: para instalar una version especifica de la libreria
+Pip uninstall libreria: desinstalar libreria
+Pip install -U libreria: para actualizar libreria
+Pip install --upgrade libreria: para actualizar libreria
+Pip freeze > requirement.txt: para crear un archivo de texto con las librerias que se tienen en el entorno
+Pip install -r requirement.txt: para copiar un archivo de txt en otro entorno
