@@ -1,0 +1,17 @@
+Análisis de datos
+
+- Crear entorno virtual y activarlo
+- Instalar:
+	Pandas
+	Request
+	Matplotlib
+- Instalar la extension jupyter
+
+-------------------------------
+
+Ejercicio Titanic
+
+1. Filtrar informacion del archivo, cantidad de filas y columnas, tipos de datos de las columnas
+2. Averiguar como eliminar datos nulos de un DataFrame
+3. Filtrar cantidad de hombres y mujeres que registran como pasajeros
+4. Averiguar como limpiar datos, es decir, eliminar o transformar datos
