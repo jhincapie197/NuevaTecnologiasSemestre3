@@ -1,0 +1,6 @@
+Titanic
+
+1. Filtrar información del archivo, cantidad de filas y columnas, tipos de datos de las columnas.
+2. Averiguar como eliminar datos nulos de un DataFrame.
+3. Filtrar cantidad de homres y mujeres que registran como pasajeros.
+4. Averiguar como limpiar datos, es decir eliminar o transformar datos.
